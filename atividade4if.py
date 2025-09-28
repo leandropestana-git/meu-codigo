@@ -1,9 +1,9 @@
-chuva = False
-nublado = True
-if chuva == True:
-    print ("levar o guarda-chuva")
+AbelPassou = True
+pontos = 10
+if AbelPassou == False:
+    print ("Reprovou")
 else:
-    if nublado == True:
-        print("levar assim mesmo o guarda-chuva")
+    if pontos>5:
+      print ("Aprovado")
     else:
-        print("não levar o guarda-chuva")
+       print("pagou para aprovar")  
